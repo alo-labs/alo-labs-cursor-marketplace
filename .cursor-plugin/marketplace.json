@@ -14,10 +14,10 @@
       "source": {
         "source": "github",
         "repo": "alo-exp/sidekick",
-        "ref": "v0.8.0"
+        "ref": "8636cc6093a3cef0f837119a2a73b1abbaef2ed5"
       },
       "description": "Sidekick \u2014 AI coding-agent delegation workflows for Cursor. Kay installs through Sidekick, Codex delegates to the local OpenAI Codex CLI, and Cursor stays in the orchestrator role.",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "author": {
         "name": "\u0100lo Labs",
         "url": "https://alolabs.dev"
@@ -40,7 +40,8 @@
       "name": "silver-bullet",
       "source": {
         "source": "github",
-        "repo": "alo-exp/silver-bullet"
+        "repo": "alo-exp/silver-bullet",
+        "ref": "064e1b1e8a00db2605f84d24fce63adaad35be8f"
       },
       "description": "Agentic Process Orchestrator for AI-native Software Engineering & DevOps. Provides SB-owned lifecycle workflows, optional extension-plugin boundaries, and layered technical compliance.",
       "version": "0.43.3",
