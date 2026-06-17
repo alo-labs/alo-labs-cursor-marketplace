@@ -1,11 +1,11 @@
 {
   "name": "alo-labs-cursor",
   "owner": {
-    "name": "\u0100lo Labs",
+    "name": "Ālo Labs",
     "email": "hello@alolabs.io"
   },
   "metadata": {
-    "description": "\u0100lo Labs plugins for Cursor \u2014 Sidekick delegation workflows and Silver Bullet orchestration",
+    "description": "Ālo Labs plugins for Cursor — Sidekick delegation workflows and Silver Bullet orchestration",
     "version": "1.0.0"
   },
   "plugins": [
@@ -16,10 +16,10 @@
         "repo": "alo-exp/sidekick",
         "ref": "8636cc6093a3cef0f837119a2a73b1abbaef2ed5"
       },
-      "description": "Sidekick \u2014 AI coding-agent delegation workflows for Cursor. Kay installs through Sidekick, Codex delegates to the local OpenAI Codex CLI, and Cursor stays in the orchestrator role.",
+      "description": "Sidekick — AI coding-agent delegation workflows for Cursor. Kay installs through Sidekick, Codex delegates to the local OpenAI Codex CLI, and Cursor stays in the orchestrator role.",
       "version": "0.8.1",
       "author": {
-        "name": "\u0100lo Labs",
+        "name": "Ālo Labs",
         "url": "https://alolabs.dev"
       },
       "homepage": "https://github.com/alo-exp/sidekick",
@@ -44,7 +44,7 @@
         "ref": "064e1b1e8a00db2605f84d24fce63adaad35be8f"
       },
       "description": "Agentic Process Orchestrator for AI-native Software Engineering & DevOps. Provides SB-owned lifecycle workflows, optional extension-plugin boundaries, and layered technical compliance.",
-      "version": "0.43.3",
+      "version": "0.44.4",
       "author": {
         "name": "Alo Labs",
         "email": "info@alolabs.dev"
