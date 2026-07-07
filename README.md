@@ -1,35 +1,18 @@
-# alo-labs-cursor-marketplace
+# alo-labs-cursor-marketplace (deprecated)
 
-Public Cursor plugin marketplace for [Ālo Labs](https://alolabs.dev) plugins.
+**This repository has moved.** Use the unified marketplace instead:
 
-## Install Silver Bullet
+**https://github.com/alo-labs/agent-plugins**
 
-1. In Cursor, add this marketplace:
-   - **Source:** `https://github.com/alo-labs/alo-labs-cursor-marketplace`
-2. Install the `silver-bullet` plugin from the marketplace.
-3. In your project, run `/silver:init`.
+## Migration
 
-For Silver Bullet development from a repository checkout, use:
+1. In Cursor, add marketplace source: `https://github.com/alo-labs/agent-plugins`
+2. Install `silver-bullet` from marketplace `alo-labs-cursor`
 
-```bash
-bash scripts/install-cursor.sh
-```
-
-## Marketplace layout
-
-```text
-.cursor-plugin/
-  marketplace.json   # indexes available plugins
-```
-
-Plugin content is fetched from the upstream source repository declared in each marketplace entry (`alo-exp/silver-bullet` for Silver Bullet).
-
-## Version sync
-
-Release bumps are pushed from the Silver Bullet source repo via:
+Or from a Silver Bullet checkout:
 
 ```bash
-scripts/sync-cursor-marketplace-version.sh <version>
+bash scripts/install-cursor.sh --public-release
 ```
 
-That script is also invoked by `scripts/sync-release-marketplace-versions.sh` during release prep.
+The marketplace ID remains `alo-labs-cursor`; only the source repository changed.
